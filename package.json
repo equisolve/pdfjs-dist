@@ -13,7 +13,7 @@
   "bugs": "https://github.com/mozilla/pdf.js/issues",
   "license": "Apache-2.0",
   "optionalDependencies": {
-    "canvas": "^2.11.0"
+    "@napi-rs/canvas": "^0.1.44"
   },
   "dependencies": {
     "web-streams-polyfill": "^3.2.1"

@@ -1551,7 +1551,7 @@ var _is_node = __w_pdfjs_require__(4);
   if (globalThis.DOMMatrix || !_is_node.isNodeJS) {
     return;
   }
-  globalThis.DOMMatrix = require("canvas").DOMMatrix;
+  globalThis.DOMMatrix = require("@napi-rs/canvas").DOMMatrix;
 })();
 (function checkReadableStream() {
   if (globalThis.ReadableStream || !_is_node.isNodeJS) {

@@ -8717,7 +8717,7 @@ const fetchData = function (url) {
 };
 class NodeCanvasFactory extends _base_factory.BaseCanvasFactory {
   _createCanvas(width, height) {
-    const Canvas = require("canvas");
+    const Canvas = require("@napi-rs/canvas");
     return Canvas.createCanvas(width, height);
   }
 }
